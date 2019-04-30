@@ -1,0 +1,9 @@
+.card {
+    margin-top: 50px !important;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 50px;
+    color: #f95f2a;
+}

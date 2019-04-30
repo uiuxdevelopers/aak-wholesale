@@ -1,0 +1,22 @@
+div h2, div h2 small {
+  /*
+	Extend/Inheritance
+	Usage: @extend %box-common-style;
+  */
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+div {
+  color: orange; }
+  div h2 {
+    color: blue;
+    /*
+	mixin: allow to reuse group of css attributes
+	Usage: @include transform(rotate(-10deg));
+  */
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg); }
+    div h2 small {
+      color: pink; }

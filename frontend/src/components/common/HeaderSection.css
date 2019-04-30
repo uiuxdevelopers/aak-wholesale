@@ -1,0 +1,21 @@
+.logo {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+    display:inline-block;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    background-color: #99aacc;
+    
+    min-height: 80px;
+}
+
+
+.form {
+    width: 50%;
+    float: none;
+    margin: 80px auto;
+}
